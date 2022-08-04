@@ -77,11 +77,11 @@ img {
     padding-bottom: 24px;
     border-bottom: 1px solid #ECECEC;
 }
-.link-logo {
+.header-logo {
     margin-right: 93px;
 }
 
-.link-logo {
+.header-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -89,7 +89,7 @@ img {
     text-decoration: none;
     color: var(--acent-color);
 }
-.logo-color {
+.header-logo--color {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -176,9 +176,19 @@ img {
 .contact__link:focus {
     color: var(--acent-color);
 }
+.contact-icon {
+    fill: var(--secondary-text-color);
+
+    
+ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact__link:focus .contact-icon {
+ fill: var(--acent-color);
+}
   
 /* Головна секція */
-.main-section {
+/* HERO */
+.hero-section {
 background-color: var(--hero-and-footer-background-color); 
 text-align: center;
 padding-top: 200px;
@@ -197,10 +207,9 @@ url(../images/mainfon.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-
 }
 
-.main-title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -212,7 +221,7 @@ background-size: cover;
     margin-bottom: 21px;
     margin-right: auto;
 }
-.btn-large {
+.hero__btn {
     border-radius: 4px;
     border: solid var(--acent-color);
     padding: 10px 32px;
@@ -229,34 +238,20 @@ background-size: cover;
     cursor: pointer;
     background-color: var(--acent-color);
 }
-.contact-icon {
-       fill: var(--secondary-text-color);
 
-       
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact__link:focus .contact-icon {
-    fill: var(--acent-color);
-}
 /* Секція переваг */
 
-.advantage-section {
+.advantage {
     padding-bottom: 0;
 }
-.main-list {
+.advantage-list {
     display: flex;
     gap: 30px;
 }
-.title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--main-text-color);
-
-    margin-bottom: 10px;
+.advantage-list__item {
+    width: 270px;
 }
-.advantage-wrap {
+.advantage-list__wrap {
     width: 270px;
     height: 120px;   
     background-color: #F5F4FA;
@@ -266,18 +261,24 @@ background-size: cover;
     align-items: center;
     justify-content: center;
 }
-.advantage-item {
-    width: 270px;
+.advantage-list__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+
+    margin-bottom: 10px;
 }
-.text-title {
+.advantage-list__text {
     line-height: 1.71;
     color: var(--secondary-text-color);
     margin-right: 30px;
 }
-.text-title:last-child {
+.advantage-list__text:last-child {
     margin-right: 0;
 }
-.advantage-icon {
+.advantage__icon {
     fill: var(--main-text-color);
 }
 /* Стилі для розділу Чим ми займаємось */
@@ -430,6 +431,18 @@ background-color: var(--hero-and-footer-background-color);
 }
 .footer-logo-color {
     color: #ffffff;
+}
+.logo {
+    margin-right: 93px;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--acent-color);
 }
 .footer-mail,
 .footer-tel {
