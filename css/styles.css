@@ -310,7 +310,7 @@ background-size: cover;
 } */
 
 /* Секція команди */
-.team-members {
+/* .team-members {
     padding-top: 94px;
     padding-bottom: 94px;
 
@@ -359,9 +359,9 @@ background-size: cover;
     text-align: center;
     color: var(--secondary-text-color);
     margin-bottom: 16px;
-}
+} */
 /* CLIENTS */
-.clients {
+/* .clients {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -409,7 +409,7 @@ background-size: cover;
 }
 .clietns__name:focus .clients__logo {
     fill: var(--acent-color)
-}
+} */
 
 /* footer */
 .footer-container {
