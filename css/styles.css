@@ -536,7 +536,7 @@ margin-bottom: 20px;
 
 /* Розділ підпишіться на розсилку */
 
-.input-form {
+/* .input-form {
     display: flex;
     gap: 12px;
 }
@@ -579,12 +579,12 @@ margin-bottom: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
-.input-form__:hover,
-.input-form__:focus {
+.input-form__email:hover,
+.input-form__email:focus {
     border: 1px solid var(--acent-color);
     outline: none;
     color: #FFFFFF;
-}
+} */
 
 
 
@@ -743,7 +743,7 @@ background-color: #2196F3;
 }
 
 /* modal window */
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -758,13 +758,13 @@ background-color: #2196F3;
     background-color: rgba(0, 0, 0, 0.2);
 
     z-index: 100;
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+} */
 
 .modal-container {
     width: 528px;
@@ -808,7 +808,7 @@ background-color: #2196F3;
     fill: var(--acent-color);
 } */
 
-.modal-form__title {
+/* .modal-form__title {
     display: block;
     margin-bottom:12px;
 
@@ -902,15 +902,15 @@ background-color: #2196F3;
 .modal-form__textarea:focus {
     border: 1px solid var(--acent-color);
     outline: none;
-}
+} */
 
-.label-agreement {
+/* .label-agreement {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
     gap: 7px;
-}
+} */
 
 /* .btn-send {
     display: inline-flex;
@@ -935,7 +935,7 @@ background-color: #2196F3;
 
     cursor: pointer;
 } */
-.label-agreement__text {
+/* .label-agreement__text {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -961,5 +961,5 @@ background-color: #2196F3;
 
 .label-agreement__check:checked + .label-agreement__register .icon-check {
     opacity: 1;
-}
+} */
 

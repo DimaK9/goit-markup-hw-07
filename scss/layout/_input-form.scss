@@ -22,7 +22,7 @@
     }
 }
 
-&__email {
+.input-form__email {
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -39,8 +39,8 @@
     background-color: #2F303A;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 
-    &__email:hover,
-    &__email:focus {
+    &:hover,
+    &:focus {
     border: 1px solid var(--acent-color);
     outline: none;
     color: #FFFFFF;

@@ -2,6 +2,7 @@
 @import './utils/variables';
 @import './utils/visuaaly-hidden';
 @import './utils/mixins';
+@import './utils/backdrop-hidden';
 
 
 
@@ -10,6 +11,7 @@
 @import './base/reset';
 @import './base/container';
 @import './base/section';
+@import './base/modal-container';
 
 
 // components styles
@@ -30,3 +32,8 @@
 @import './layout/footer';
 @import './layout/social-networks';
 @import './layout/input-form';
+@import './layout/bakcdrop';
+@import './layout/modal';
+@import './layout/agreement';
+@import './layout/portfolio';
+@import './layout/socials-website';
