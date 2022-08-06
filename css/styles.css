@@ -138,7 +138,7 @@ img {
 } */
 
 /* contacts */
-.contact {
+/* .contact {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +180,7 @@ img {
 }
 .contact__link:focus .contact-icon {
  fill: var(--acent-color);
-}
+} */
   
 /* Головна секція */
 /* HERO */
