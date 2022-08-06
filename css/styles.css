@@ -282,7 +282,7 @@ background-size: cover;
     fill: var(--main-text-color);
 }
 /* Стилі для розділу Чим ми займаємось */
-.item-container {
+.competencies__card {
     position: relative;
 }
 
@@ -295,7 +295,7 @@ background-size: cover;
     width: 370px;
     height: 70px;
 }
-.features-text {
+.competencies__text {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -325,11 +325,11 @@ background-size: cover;
     gap: 30px;
 }
 
-.secondary-list {
+.competencies__list {
     display: flex;
     gap: 30px;
 }
-.secondary-title,
+.competencies__title,
 .team-members__title {
     font-weight: 700;
     font-size: 36px;
@@ -338,7 +338,7 @@ background-size: cover;
     color: var(--main-text-color);
     margin-bottom: 50px;
 }
-.secondary-title {
+.competencies__title {
     margin-bottom: 50px;
 }
 .team-box {
@@ -369,7 +369,7 @@ background-size: cover;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.clients-title {
+.clients__title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -380,13 +380,13 @@ background-size: cover;
 
     margin-bottom: 50px;
 }
-.clients-list {
+.clients__list {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
-.clietns-link {
+.clietns__name {
     display: flex;
     width: 170px;
     height: 92px;
@@ -399,19 +399,19 @@ background-size: cover;
     
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
-.clients-icon {
+.clients__logo {
     fill: #AFB1B8;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clietns-link:hover,
-.clietns-link:focus {
+.clietns__name:hover,
+.clietns__name:focus {
     border: 1px solid var(--acent-color);
 }
-.clietns-link:hover .clients-icon {
+.clietns__name:hover .clients__logo {
     fill: var(--acent-color)
 }
-.clietns-link:focus .clients-icon {
+.clietns__name:focus .clients__logo {
     fill: var(--acent-color)
 }
 
