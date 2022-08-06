@@ -314,13 +314,13 @@ background-size: cover;
 }
 
 /* Секція команди */
-.team-section {
+.team-members {
     padding-top: 94px;
     padding-bottom: 94px;
 
     background-color: #F5F4FA
 }
-.team-list {
+.team-members__list {
     display: flex;
     gap: 30px;
 }
@@ -330,7 +330,7 @@ background-size: cover;
     gap: 30px;
 }
 .secondary-title,
-.team-title {
+.team-members__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -349,7 +349,7 @@ background-size: cover;
 .team-item {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.about-team-title {
+.team-members__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -357,7 +357,7 @@ background-size: cover;
     color: var(--main-text-color);
     margin-bottom: 10px;
 }
-.profession {
+.team-members__profession {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -721,7 +721,7 @@ margin-bottom: 20px;
     justify-content: center;
     gap: 10px;
 }
-.socials-link {
+.socials__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -734,18 +734,18 @@ margin-bottom: 20px;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-icon {
+.socials__icon {
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.socials-link:hover,
-.socials-link:focus {
+.socials__link:hover,
+.socials__link:focus {
 background-color: #2196F3;
 }
-.socials-link:hover .social-icon {
+.socials__link:hover .socials__icon {
     fill: #FFFFFF;
 }
-.socials-link:focus .social-icon {
+.socials__link:focus .socials__icon {
     fill: #FFFFFF;
 }
 
