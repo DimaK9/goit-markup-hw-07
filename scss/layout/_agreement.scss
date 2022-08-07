@@ -18,14 +18,14 @@
     &__text--link {
         color: var(--acent-color);
     }
-}
-
+    
 &__check:checked + &__register .icon-uncheck {
     opacity: 0;
 }
 
 &__check:checked + &__register .icon-check {
     opacity: 1;
+}
 }
 
 .icon-check {
