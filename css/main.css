@@ -698,6 +698,9 @@ img {
   color: var(--acent-color);
 }
 
+.social-networks {
+  margin-left: 70px;
+}
 .social-networks__title {
   display: inline-block;
   margin-bottom: 20px;
@@ -707,7 +710,6 @@ img {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 .social-networks__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -719,6 +721,9 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 10px;
+}
+.social-networks__icon {
+  fill: #FFFFFF;
 }
 
 .social-networks__link {
@@ -745,10 +750,6 @@ img {
 }
 .social-networks__link:hover, .social-networks__link:focus {
   background-color: #2196F3;
-}
-
-.social-networks__icon {
-  fill: #FFFFFF;
 }
 
 .input-form {
